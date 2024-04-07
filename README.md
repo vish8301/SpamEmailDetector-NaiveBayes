@@ -4,6 +4,12 @@ This project implements a Spam Email Classifier using the Naive Bayes supervised
 The classifier is trained and tested on a dataset of emails, which are labeled as either 'Spam' or 'Not Spam'.
 
 
+## Dataset
+The training dataset for this project comprises 702 emails, equally divided into two categories: spam and non-spam. This collection is utilized to train the machine learning model, ensuring a balanced representation of both classes. Additionally, a separate test dataset of 260 emails is used to evaluate the model's performance, providing a comprehensive assessment of its ability to accurately classify unseen data.
+
+**IMPORTANT NOTE:** The paths to the 'train-mails' and 'test-mails' data folders is set as './train-mails' and './test-mails'. This setup ensures that the notebook and these folders are in the same directory, allowing for consistent execution across different environments.
+
+
 ## Library Imports
 The project uses the following Python libraries
 
